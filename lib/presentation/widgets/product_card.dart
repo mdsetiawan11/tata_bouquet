@@ -12,42 +12,57 @@ class ProductCard extends StatelessWidget {
     return Card(
       elevation: 0,
       color: Colors.white,
-      child: Padding(
-        padding: const EdgeInsets.all(15),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            SizedBox(
-              width: 200,
-              height: 200,
-              child: Image.asset('assets/flower.png'),
-            ),
-            Row(
-              children: [
-                const Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [Text('Produk 1'), Text('Rp. 70.000')],
-                ),
-                const SizedBox(
-                  width: 50,
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  decoration: BoxDecoration(
-                      color: AppColors.primary,
-                      borderRadius: BorderRadius.circular(12)),
-                  child: InkWell(
-                    onTap: () {},
-                    child: const Icon(
+      child: InkWell(
+        onTap: () {},
+        child: Padding(
+          padding: const EdgeInsets.all(15),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              SizedBox(
+                width: 200,
+                height: 200,
+                child: Image.asset('assets/flower.png'),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Produk 1',
+                        style: TextStyle(
+                            fontSize: 18, color: Colors.grey.shade500),
+                      ),
+                      const Text(
+                        'Rp. 70.000',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                  SizedBox(
+                    width: 70,
+                  ),
+                  MaterialButton(
+                    elevation: 0,
+                    minWidth: 40,
+                    height: 40,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12)),
+                    color: AppColors.primary,
+                    onPressed: () {},
+                    child: Icon(
                       Ionicons.add_outline,
                       color: Colors.white,
                     ),
-                  ),
-                ),
-              ],
-            )
-          ],
+                  )
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
