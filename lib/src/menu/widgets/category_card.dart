@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tata_bouquet/shared/colors.dart';
+import 'package:tata_bouquet/utils/colors.dart';
 
 class CategoryCard extends StatelessWidget {
   const CategoryCard({

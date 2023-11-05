@@ -3,8 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:ionicons/ionicons.dart';
-import 'package:tata_bouquet/presentation/screens/menu_page.dart';
-import 'package:tata_bouquet/shared/colors.dart';
+import 'package:tata_bouquet/src/menu/presentation/menu_page.dart';
+import 'package:tata_bouquet/utils/colors.dart';
 
 class LayoutPage extends StatefulWidget {
   const LayoutPage({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
-import 'package:tata_bouquet/presentation/widgets/category_card.dart';
-import 'package:tata_bouquet/presentation/widgets/product_card.dart';
-import 'package:tata_bouquet/shared/colors.dart';
+import 'package:tata_bouquet/src/menu/widgets/category_card.dart';
+import 'package:tata_bouquet/src/menu/widgets/product_card.dart';
+import 'package:tata_bouquet/utils/colors.dart';
 
 class MenuPage extends StatelessWidget {
   const MenuPage({super.key});

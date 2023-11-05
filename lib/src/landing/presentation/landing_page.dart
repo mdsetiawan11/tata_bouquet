@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tata_bouquet/presentation/screens/layout_page.dart';
-import 'package:tata_bouquet/shared/colors.dart';
+import 'package:tata_bouquet/src/menu/presentation/layout_page.dart';
+import 'package:tata_bouquet/utils/colors.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LandingPage extends StatelessWidget {

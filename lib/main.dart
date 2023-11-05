@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_frame/flutter_web_frame.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tata_bouquet/presentation/screens/landing_page.dart';
-import 'package:tata_bouquet/shared/colors.dart';
+import 'package:tata_bouquet/src/landing/presentation/landing_page.dart';
+import 'package:tata_bouquet/utils/colors.dart';
 
 void main() {
   runApp(const MyApp());
